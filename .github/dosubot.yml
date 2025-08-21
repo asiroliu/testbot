@@ -1,0 +1,10 @@
+# .github/dosubot.yml
+
+auto_label:
+  enabled: true
+  rules:
+    - name: "API changes"
+      paths:
+        - "a/**"
+      label: "API"
+
